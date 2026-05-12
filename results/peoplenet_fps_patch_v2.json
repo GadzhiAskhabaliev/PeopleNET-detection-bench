@@ -1,0 +1,14 @@
+{
+  "metrics": {
+    "fps_forward": 214.7649,
+    "fps_predict": 147.8996,
+    "forward_time_ms_mean": 4.6563,
+    "inference_time_ms_predict": 6.7613,
+    "inference_time_ms": 6.7613
+  },
+  "notes": [
+    "FPS measured on ONNXRuntime CUDAExecutionProvider; warmup=100 iters=500.",
+    "fps_forward: sess.run on preprocessed tensor only.",
+    "fps_predict: preprocess + sess.run + lightweight decode scan."
+  ]
+}
